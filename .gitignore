@@ -6,8 +6,9 @@
 .env*.local
 
 # Claude Code local settings (may contain API keys)
-.claude/settings.local.json
-.claude/hooks/
+**/settings.local.json
+.claude/hooks/*
+!.claude/hooks/telegram-pr-webhook.py
 .claude/commands/opsx/
 .claude/skills/
 
@@ -40,6 +41,7 @@ coverage
 # Sandbox output directories
 sandbox-*/
 cloudflare-*/
+!cloudflare-workers/
 
 # Test directories (local only)
 test-agent-sdk/
@@ -66,3 +68,19 @@ analysis/
 
 # OpenSpec (local workflow artifacts)
 openspec/
+
+# Crawl output (cf-crawl skill)
+.crawl-output/
+
+# Migrations (applied directly to Neon, not needed in repo)
+scripts/migrations/
+
+# Secrets and credentials
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+*-credentials.json
+.npmrc.local
