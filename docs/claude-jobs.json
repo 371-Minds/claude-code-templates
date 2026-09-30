@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-29T03:20:29.553891+00:00",
-  "totalJobs": 89,
+  "lastUpdated": "2026-09-30T03:21:19.443978+00:00",
+  "totalJobs": 91,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -1484,6 +1484,28 @@
       "companyIcon": "https://www.anthropic.com/favicon.ico"
     },
     {
+      "id": "hn-48748512",
+      "company": "Credo Health",
+      "position": "Full Stack Engineer",
+      "location": "NYC (HYBRID — 1 day/week onsite, otherwise remote)",
+      "remote": true,
+      "salary": "$125k–$175k",
+      "description": "I'm Ketan, Head of Engineering at Credo. We're a seed-stage, HIPAA-compliant health-tech company fixing one of healthcare's dumbest problems: getting the right patient data to the people who need it. Billions of pages of medical records still move by fax every year — causing care delays, admin...",
+      "applyUrl": "https://news.ycombinator.com/item?id=48748512",
+      "source": "HackerNews",
+      "sourceUrl": "https://news.ycombinator.com/item?id=48748512",
+      "postedAt": "2026-07-01T15:30:17+00:00",
+      "tags": [
+        "Python",
+        "PostgreSQL",
+        "Cursor",
+        "Copilot",
+        "Django",
+        "Vue.js"
+      ],
+      "companyIcon": ""
+    },
+    {
       "id": "hn-48747990",
       "company": "We The Flywheel",
       "position": "Software Engineer",
@@ -1695,6 +1717,27 @@
         "Azure",
         "Kubernetes",
         "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
+    {
+      "id": "anth-5146298008",
+      "company": "Anthropic",
+      "position": "Staff Software Engineer, Billing Platform",
+      "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+      "remote": false,
+      "salary": "",
+      "description": "Anthropic exists to ensure the world safely navigates the transition through transformative AI. That work is funded by commercial revenue — and every dollar of it runs through Billing Platform. We build and operate the infrastructure that turns product usage into revenue across everything Anthropic...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5146298008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5146298008",
+      "postedAt": "2026-03-10T13:14:01-04:00",
+      "tags": [
+        "Rust",
+        "AWS",
+        "Claude Code",
+        "Rails",
         "Anthropic"
       ],
       "companyIcon": "https://www.anthropic.com/favicon.ico"
